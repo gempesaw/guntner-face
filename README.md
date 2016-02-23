@@ -1,6 +1,10 @@
 # guntner face
 
-guntner face
+[guntner face](https://chrome.google.com/webstore/detail/guntner-face/nikcbdhoooolifgnbbhppdeogjdjepjh?hl=en-US&gl=US)
+
+# contributing
+
+guntner's face welcomes PRs
 
 # deployment
 
