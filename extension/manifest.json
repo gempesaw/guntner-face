@@ -1,10 +1,11 @@
 {
     "name": "guntner face",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "look at guntner's face",
     "manifest_version": 2,
     "content_scripts": [{
         "js": ["src/inject/inject-guntner-face.js"],
         "matches": ["<all_urls>"]
-    }]
+    }],
+    "web_accessible_resources": [ "images/*" ]
 }
