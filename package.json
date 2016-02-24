@@ -1,0 +1,30 @@
+{
+  "name": "guntner-face",
+  "version": "0.0.2",
+  "description": "look at guntner's face",
+  "main": "src/inject/inject-guntner's-face.js",
+  "scripts": {
+      "test": "node_modules/karma/bin/karma start guntner.conf.js --single-run",
+      "ci": "node_modules/karma/bin/karma start guntner.conf.js --auto-watch --no-color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gempesaw/guntner-face.git"
+  },
+  "keywords": [
+    "guntner",
+    "face"
+  ],
+  "author": "Daniel Gempesaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gempesaw/guntner-face/issues"
+  },
+  "homepage": "https://github.com/gempesaw/guntner-face#README.md",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.7"
+  }
+}
