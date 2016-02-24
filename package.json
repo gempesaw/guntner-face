@@ -4,8 +4,7 @@
   "description": "look at guntner's face",
   "main": "src/inject/inject-guntner's-face.js",
   "scripts": {
-      "test": "node_modules/karma/bin/karma start guntner.conf.js --single-run",
-      "ci": "node_modules/karma/bin/karma start guntner.conf.js --auto-watch --no-color",
+      "test": "node_modules/karma/bin/karma start guntner.conf.js --auto-watch --no-color",
       "travis": "node_modules/karma/bin/karma start guntner.conf.js --single-run --browsers=Chrome_travis_ci"
   },
   "repository": {
