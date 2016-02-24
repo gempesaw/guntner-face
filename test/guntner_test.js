@@ -18,14 +18,14 @@ describe('guntner face', function () {
         };
     });
 
-    it('should show guntner face', () => {
+    it('should show guntner face', function () {
         window.Math.random = function () { return 1; };
         faceGuntner();
 
         expect(facedGuntner).toBe(true);
     });
 
-    it('should not show guntner face sometimes :(', () => {
+    it('should not show guntner face sometimes :(', function () {
         window.Math.random = function () { return 0; };
         faceGuntner();
 
