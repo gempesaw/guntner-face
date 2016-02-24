@@ -1,4 +1,4 @@
-/*global faceGuntner */
+/*global faceGuntner, chooseGuntner */
 
 describe('guntner face', function () {
 
@@ -30,6 +30,11 @@ describe('guntner face', function () {
         faceGuntner();
 
         expect(facedGuntner).toBe(false);
+    });
+
+    it('should choose the right guntner', function () {
+        var guntner = chooseGuntner();
+        expect(guntner).toMatch(/images\/guntner\d\.(?:jpg|png)/);
     });
 
 });
