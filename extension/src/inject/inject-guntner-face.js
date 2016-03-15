@@ -15,11 +15,18 @@ function chooseGuntner () {
 
 function faceGuntner () {
     var images = document.getElementsByTagName('img');
-    Array.prototype.slice.call(images).forEach(function (img) {
-        if (Math.random() > 0.5 ) {
-            img.src = chrome.extension.getURL(chooseGuntner());
-        }
-    });
+
+    Array.prototype.slice.call(images)
+        .filter(shouldWeGuntner)
+        .forEach(guntnerTheImage);
+}
+
+function shouldWeGuntner() {
+    return Math.random() > 0.5;
+}
+
+function guntnerTheImage(img) {
+    img.src = chrome.extension.getURL(chooseGuntner());
 }
 
 function guntnerIsReady(fn) {
