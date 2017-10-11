@@ -1,6 +1,6 @@
 {
   "name": "guntner-face",
-  "version": "0.0.2",
+  "version": "2.0.1",
   "description": "look at guntner's face",
   "main": "src/inject/inject-guntner's-face.js",
   "scripts": {
