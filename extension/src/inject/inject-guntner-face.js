@@ -6,7 +6,8 @@ function chooseGuntner () {
         'images/guntner2.png',
         'images/guntner3.png',
         'images/guntner4.png',
-        'images/guntner5.png'
+        'images/guntner5.png',
+        'images/guntner6.jpg'
     ];
 
     var index = Math.floor(Math.random() * guntnerImages.length);
